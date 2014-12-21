@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPageViewControllerDataSource>{
+    
+    NSArray *VCArray;
+    NSMutableDictionary *VCDic;
+    NSInteger nowIdx;
+    NSInteger count;
 
+}
+
+@property (nonatomic, strong) UIPageViewController *pageViewController;
 
 @end
 

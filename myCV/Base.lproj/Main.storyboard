@@ -1,25 +1,393 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Shket-Regular.otf">
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="162" y="355"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="6Jq-5F-Kez">
+            <objects>
+                <viewController storyboardIdentifier="camera" id="PZo-Of-pP7" customClass="CameraViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vK4-O2-Qfz"/>
+                        <viewControllerLayoutGuide type="bottom" id="lpt-Mv-abW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6SY-g3-il5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1Q-eC-wSy">
+                                <rect key="frame" x="16" y="297" width="288" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObR-aG-I8S">
+                                <rect key="frame" x="16" y="365" width="288" height="110"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzy-T2-SJ9">
+                                <rect key="frame" x="137" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPress:" destination="PZo-Of-pP7" eventType="touchUpInside" id="dD4-x9-GOo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overLay.png" translatesAutoresizingMaskIntoConstraints="NO" id="eMr-om-rTo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="msgLabel" destination="O1Q-eC-wSy" id="oZB-xU-Rzb"/>
+                        <outlet property="msgLabel2" destination="ObR-aG-I8S" id="n65-6m-36c"/>
+                        <outlet property="nextBut" destination="Dzy-T2-SJ9" id="3yD-Wk-OtX"/>
+                        <outlet property="overLayView" destination="eMr-om-rTo" id="UaM-7T-KBk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71q-or-Ge2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="1008"/>
+        </scene>
+        <!--Projects View Controller-->
+        <scene sceneID="6tZ-Iu-go4">
+            <objects>
+                <viewController storyboardIdentifier="project" id="SqP-QF-GsI" customClass="ProjectsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pDo-QZ-fwG"/>
+                        <viewControllerLayoutGuide type="bottom" id="cvB-xx-HXc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YxS-kD-dr5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROJECTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTv-HS-sOo">
+                                <rect key="frame" x="91" y="28" width="139" height="86"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="60"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="goW-sD-Bxe">
+                                <rect key="frame" x="110" y="122" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[Cho Kae Jer]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4f-WD-m5k">
+                                <rect key="frame" x="104" y="218" width="111" height="64"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="30"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WaN-DD-eQp">
+                                <rect key="frame" x="0.0" y="273" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aRB-mN-1jW">
+                                    <size key="itemSize" width="290" height="90"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SqP-QF-GsI" id="GIc-eA-D4i"/>
+                                    <outlet property="delegate" destination="SqP-QF-GsI" id="aBx-ZK-QPV"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sr-TD-b0q">
+                                <rect key="frame" x="137" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="SqP-QF-GsI" eventType="touchUpInside" id="p3Q-Kn-XbH"/>
+                                    <action selector="nextPress:" destination="PZo-Of-pP7" eventType="touchUpInside" id="7qp-aK-8P1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="WaN-DD-eQp" id="gmN-gx-5au"/>
+                        <outlet property="imgView" destination="goW-sD-Bxe" id="dv6-6l-np5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTX-pZ-iwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="1640"/>
+        </scene>
+        <!--Project Content View Controller-->
+        <scene sceneID="WMy-QJ-kOq">
+            <objects>
+                <viewController storyboardIdentifier="content" id="zaD-nl-qeq" customClass="ProjectContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dIZ-Gc-D2m"/>
+                        <viewControllerLayoutGuide type="bottom" id="qLa-7G-Z1j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jn2-6Y-HQO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TEa-o3-ylO">
+                                <rect key="frame" x="9" y="28" width="302" height="288"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-HC-fWN">
+                                <rect key="frame" x="9" y="296" width="302" height="97"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RJ-HY-PyG">
+                                <rect key="frame" x="137" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="zaD-nl-qeq" eventType="touchUpInside" id="a8a-Pt-K37"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMa-mX-ajh">
+                                <rect key="frame" x="138" y="466" width="45" height="30"/>
+                                <state key="normal" title="DEMO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playMovie:" destination="zaD-nl-qeq" eventType="touchUpInside" id="oqw-K7-vfy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vu-sI-Qc6">
+                                <rect key="frame" x="16" y="383" width="288" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="DesLabel" destination="8vu-sI-Qc6" id="LrE-9h-vUA"/>
+                        <outlet property="NameLabel" destination="bHl-HC-fWN" id="hg5-dp-cCx"/>
+                        <outlet property="backButton" destination="2RJ-HY-PyG" id="COa-W3-NWI"/>
+                        <outlet property="demoButton" destination="hMa-mX-ajh" id="ixk-vB-5GU"/>
+                        <outlet property="imgView" destination="TEa-o3-ylO" id="FxB-3e-H72"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQN-eI-den" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1640"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="VJd-0C-WK0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohP-Ha-0BY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="about" id="J0T-cd-ZpZ" customClass="AboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JSp-av-HNP"/>
+                        <viewControllerLayoutGuide type="bottom" id="242-st-lwa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RUF-TN-U28">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EDUCATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cz-Bf-xwD">
+                                <rect key="frame" x="89" y="28" width="148" height="86"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="60"/>
+                                <color key="textColor" red="0.50196081399917603" green="0.25098040699958801" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCR-hh-YfD">
+                                <rect key="frame" x="164" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPress:" destination="J0T-cd-ZpZ" eventType="touchUpInside" id="Hlp-ew-XQH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-vp-qAA">
+                                <rect key="frame" x="110" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="J0T-cd-ZpZ" eventType="touchUpInside" id="9J4-eN-yu3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rw7-KU-r4n">
+                                <rect key="frame" x="110" y="122" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NTHU CS, '10 - '13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8w-fz-N3Q">
+                                <rect key="frame" x="56" y="304" width="154" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NCTU CS, '13 - '15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QY-Ea-0nz">
+                                <rect key="frame" x="56" y="373" width="154" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[Cho Kae Jer]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLL-vG-iIN">
+                                <rect key="frame" x="105" y="218" width="111" height="64"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="30"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nctulogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="5vC-d1-1eE">
+                                <rect key="frame" x="203" y="367" width="73" height="73"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nthulogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-p2-OrI">
+                                <rect key="frame" x="172" y="281" width="135" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="rw7-KU-r4n" id="l7z-hZ-pP4"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="513" y="364"/>
+        </scene>
+        <!--Skills View Controller-->
+        <scene sceneID="rfE-9G-Pdo">
+            <objects>
+                <viewController storyboardIdentifier="skill" id="l00-5D-Njh" customClass="SkillsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dbd-Pf-hkU"/>
+                        <viewControllerLayoutGuide type="bottom" id="hau-ZR-GKf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UCz-pi-4jb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKILLS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W16-gi-UnJ">
+                                <rect key="frame" x="110" y="28" width="97" height="86"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="60"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ciA-7k-oXV">
+                                <rect key="frame" x="110" y="122" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[Cho Kae Jer]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLS-W1-rFG">
+                                <rect key="frame" x="105" y="218" width="111" height="64"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="30"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#iOS Development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvy-DW-doP">
+                                <rect key="frame" x="62" y="277" width="196" height="41"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVg-mx-pS8">
+                                <rect key="frame" x="26" y="318" width="260" height="91"/>
+                                <string key="text">#C, Python, Java,
+   JavaScript, PHP</string>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#CocoaPods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW3-bt-HAR">
+                                <rect key="frame" x="80" y="411" width="161" height="41"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXC-Km-asn">
+                                <rect key="frame" x="164" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPress:" destination="l00-5D-Njh" eventType="touchUpInside" id="6FP-hZ-qx7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9l-rt-ml1">
+                                <rect key="frame" x="110" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="l00-5D-Njh" eventType="touchUpInside" id="id5-J7-hMn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#BitBucket (GIT)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrs-2F-KNt">
+                                <rect key="frame" x="69" y="455" width="174" height="41"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="ciA-7k-oXV" id="hBT-3f-BjA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVU-Fi-sly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1008"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nctulogo.gif" width="100" height="100"/>
+        <image name="nthulogo.gif" width="160" height="100"/>
+        <image name="overLay.png" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

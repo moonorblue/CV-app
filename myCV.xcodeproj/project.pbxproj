@@ -14,6 +14,33 @@
 		FC976E061A4672F000D6599B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC976E051A4672F000D6599B /* Images.xcassets */; };
 		FC976E091A4672F000D6599B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC976E071A4672F000D6599B /* LaunchScreen.xib */; };
 		FC976E151A4672F000D6599B /* myCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E141A4672F000D6599B /* myCVTests.m */; };
+		FC976E261A46734100D6599B /* new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E221A46734100D6599B /* new@2x.png */; };
+		FC976E271A46734100D6599B /* overLay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E231A46734100D6599B /* overLay@2x.png */; };
+		FC976E281A46734100D6599B /* profileSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E241A46734100D6599B /* profileSquare.png */; };
+		FC976E291A46734100D6599B /* profileSquare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E251A46734100D6599B /* profileSquare@2x.png */; };
+		FC976E2B1A46734E00D6599B /* Shket-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC976E2A1A46734E00D6599B /* Shket-Regular.otf */; };
+		FC976E391A4684A200D6599B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E381A4684A200D6599B /* AboutViewController.m */; };
+		FC976E3C1A4698C800D6599B /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E3B1A4698C800D6599B /* CameraViewController.m */; };
+		FC976E3F1A4698D500D6599B /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E3E1A4698D500D6599B /* ProjectsViewController.m */; };
+		FC976E421A4698E600D6599B /* SkillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E411A4698E600D6599B /* SkillsViewController.m */; };
+		FC976E451A46B75500D6599B /* nctulogo@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC976E431A46B75500D6599B /* nctulogo@2x.gif */; };
+		FC976E481A46BAF100D6599B /* nthulogo@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC976E471A46BAF100D6599B /* nthulogo@2x.gif */; };
+		FC976E4C1A46C46A00D6599B /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E4A1A46C46A00D6599B /* MyCollectionViewCell.m */; };
+		FC976E4D1A46C46A00D6599B /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC976E4B1A46C46A00D6599B /* MyCollectionViewCell.xib */; };
+		FC976E501A46C96B00D6599B /* ProjectObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E4F1A46C96B00D6599B /* ProjectObj.m */; };
+		FC976E571A46CBFC00D6599B /* 1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC976E511A46CBFC00D6599B /* 1@2x.jpg */; };
+		FC976E581A46CBFC00D6599B /* 2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC976E521A46CBFC00D6599B /* 2@2x.jpg */; };
+		FC976E591A46CBFC00D6599B /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E531A46CBFC00D6599B /* 3@2x.png */; };
+		FC976E5A1A46CBFC00D6599B /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E541A46CBFC00D6599B /* 4@2x.png */; };
+		FC976E5B1A46CBFC00D6599B /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E551A46CBFC00D6599B /* 5@2x.png */; };
+		FC976E5C1A46CBFC00D6599B /* 6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E561A46CBFC00D6599B /* 6@2x.png */; };
+		FC976E5E1A46CC6700D6599B /* 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E5D1A46CC6700D6599B /* 7@2x.png */; };
+		FC976E611A46D84B00D6599B /* ProjectContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E601A46D84B00D6599B /* ProjectContentViewController.m */; };
+		FC976E641A46F6C200D6599B /* date.mov in Resources */ = {isa = PBXBuildFile; fileRef = FC976E631A46F6C200D6599B /* date.mov */; };
+		FC976E661A46F6CC00D6599B /* uvapp.mov in Resources */ = {isa = PBXBuildFile; fileRef = FC976E651A46F6CC00D6599B /* uvapp.mov */; };
+		FC976E6A1A47087100D6599B /* icon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E691A47087100D6599B /* icon120@2x.png */; };
+		FC976E6D1A4708D900D6599B /* icon58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E6B1A4708D900D6599B /* icon58@2x.png */; };
+		FC976E6E1A4708D900D6599B /* icon80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC976E6C1A4708D900D6599B /* icon80@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +67,40 @@
 		FC976E0E1A4672F000D6599B /* myCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC976E131A4672F000D6599B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC976E141A4672F000D6599B /* myCVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCVTests.m; sourceTree = "<group>"; };
+		FC976E221A46734100D6599B /* new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new@2x.png"; sourceTree = "<group>"; };
+		FC976E231A46734100D6599B /* overLay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overLay@2x.png"; sourceTree = "<group>"; };
+		FC976E241A46734100D6599B /* profileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileSquare.png; sourceTree = "<group>"; };
+		FC976E251A46734100D6599B /* profileSquare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profileSquare@2x.png"; sourceTree = "<group>"; };
+		FC976E2A1A46734E00D6599B /* Shket-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shket-Regular.otf"; sourceTree = "<group>"; };
+		FC976E371A4684A200D6599B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		FC976E381A4684A200D6599B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		FC976E3A1A4698C800D6599B /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		FC976E3B1A4698C800D6599B /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		FC976E3D1A4698D500D6599B /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		FC976E3E1A4698D500D6599B /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		FC976E401A4698E600D6599B /* SkillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillsViewController.h; sourceTree = "<group>"; };
+		FC976E411A4698E600D6599B /* SkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillsViewController.m; sourceTree = "<group>"; };
+		FC976E431A46B75500D6599B /* nctulogo@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nctulogo@2x.gif"; sourceTree = "<group>"; };
+		FC976E471A46BAF100D6599B /* nthulogo@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nthulogo@2x.gif"; sourceTree = "<group>"; };
+		FC976E491A46C46A00D6599B /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		FC976E4A1A46C46A00D6599B /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		FC976E4B1A46C46A00D6599B /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC976E4E1A46C96B00D6599B /* ProjectObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectObj.h; sourceTree = "<group>"; };
+		FC976E4F1A46C96B00D6599B /* ProjectObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectObj.m; sourceTree = "<group>"; };
+		FC976E511A46CBFC00D6599B /* 1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@2x.jpg"; sourceTree = "<group>"; };
+		FC976E521A46CBFC00D6599B /* 2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2@2x.jpg"; sourceTree = "<group>"; };
+		FC976E531A46CBFC00D6599B /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		FC976E541A46CBFC00D6599B /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		FC976E551A46CBFC00D6599B /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@2x.png"; sourceTree = "<group>"; };
+		FC976E561A46CBFC00D6599B /* 6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@2x.png"; sourceTree = "<group>"; };
+		FC976E5D1A46CC6700D6599B /* 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@2x.png"; sourceTree = "<group>"; };
+		FC976E5F1A46D84B00D6599B /* ProjectContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectContentViewController.h; sourceTree = "<group>"; };
+		FC976E601A46D84B00D6599B /* ProjectContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectContentViewController.m; sourceTree = "<group>"; };
+		FC976E631A46F6C200D6599B /* date.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = date.mov; sourceTree = "<group>"; };
+		FC976E651A46F6CC00D6599B /* uvapp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = uvapp.mov; sourceTree = "<group>"; };
+		FC976E691A47087100D6599B /* icon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon120@2x.png"; sourceTree = "<group>"; };
+		FC976E6B1A4708D900D6599B /* icon58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon58@2x.png"; sourceTree = "<group>"; };
+		FC976E6C1A4708D900D6599B /* icon80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon80@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +142,27 @@
 		FC976DF71A4672F000D6599B /* myCV */ = {
 			isa = PBXGroup;
 			children = (
+				FC976E1E1A46730400D6599B /* Resources */,
 				FC976DFC1A4672F000D6599B /* AppDelegate.h */,
 				FC976DFD1A4672F000D6599B /* AppDelegate.m */,
 				FC976DFF1A4672F000D6599B /* ViewController.h */,
 				FC976E001A4672F000D6599B /* ViewController.m */,
+				FC976E371A4684A200D6599B /* AboutViewController.h */,
+				FC976E381A4684A200D6599B /* AboutViewController.m */,
+				FC976E3A1A4698C800D6599B /* CameraViewController.h */,
+				FC976E3B1A4698C800D6599B /* CameraViewController.m */,
+				FC976E3D1A4698D500D6599B /* ProjectsViewController.h */,
+				FC976E3E1A4698D500D6599B /* ProjectsViewController.m */,
+				FC976E5F1A46D84B00D6599B /* ProjectContentViewController.h */,
+				FC976E601A46D84B00D6599B /* ProjectContentViewController.m */,
+				FC976E401A4698E600D6599B /* SkillsViewController.h */,
+				FC976E411A4698E600D6599B /* SkillsViewController.m */,
 				FC976E021A4672F000D6599B /* Main.storyboard */,
+				FC976E491A46C46A00D6599B /* MyCollectionViewCell.h */,
+				FC976E4A1A46C46A00D6599B /* MyCollectionViewCell.m */,
+				FC976E4B1A46C46A00D6599B /* MyCollectionViewCell.xib */,
+				FC976E4E1A46C96B00D6599B /* ProjectObj.h */,
+				FC976E4F1A46C96B00D6599B /* ProjectObj.m */,
 				FC976E051A4672F000D6599B /* Images.xcassets */,
 				FC976E071A4672F000D6599B /* LaunchScreen.xib */,
 				FC976DF81A4672F000D6599B /* Supporting Files */,
@@ -117,6 +194,56 @@
 				FC976E131A4672F000D6599B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC976E1E1A46730400D6599B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC976E621A46F6B500D6599B /* video */,
+				FC976E211A46732100D6599B /* Font */,
+				FC976E201A46731600D6599B /* Img */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FC976E201A46731600D6599B /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				FC976E6B1A4708D900D6599B /* icon58@2x.png */,
+				FC976E6C1A4708D900D6599B /* icon80@2x.png */,
+				FC976E691A47087100D6599B /* icon120@2x.png */,
+				FC976E511A46CBFC00D6599B /* 1@2x.jpg */,
+				FC976E521A46CBFC00D6599B /* 2@2x.jpg */,
+				FC976E531A46CBFC00D6599B /* 3@2x.png */,
+				FC976E541A46CBFC00D6599B /* 4@2x.png */,
+				FC976E551A46CBFC00D6599B /* 5@2x.png */,
+				FC976E561A46CBFC00D6599B /* 6@2x.png */,
+				FC976E5D1A46CC6700D6599B /* 7@2x.png */,
+				FC976E471A46BAF100D6599B /* nthulogo@2x.gif */,
+				FC976E431A46B75500D6599B /* nctulogo@2x.gif */,
+				FC976E221A46734100D6599B /* new@2x.png */,
+				FC976E231A46734100D6599B /* overLay@2x.png */,
+				FC976E241A46734100D6599B /* profileSquare.png */,
+				FC976E251A46734100D6599B /* profileSquare@2x.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		FC976E211A46732100D6599B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FC976E2A1A46734E00D6599B /* Shket-Regular.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		FC976E621A46F6B500D6599B /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FC976E651A46F6CC00D6599B /* uvapp.mov */,
+				FC976E631A46F6C200D6599B /* date.mov */,
+			);
+			name = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +326,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC976E4D1A46C46A00D6599B /* MyCollectionViewCell.xib in Resources */,
 				FC976E041A4672F000D6599B /* Main.storyboard in Resources */,
+				FC976E571A46CBFC00D6599B /* 1@2x.jpg in Resources */,
+				FC976E261A46734100D6599B /* new@2x.png in Resources */,
+				FC976E6D1A4708D900D6599B /* icon58@2x.png in Resources */,
+				FC976E591A46CBFC00D6599B /* 3@2x.png in Resources */,
+				FC976E581A46CBFC00D6599B /* 2@2x.jpg in Resources */,
+				FC976E281A46734100D6599B /* profileSquare.png in Resources */,
+				FC976E271A46734100D6599B /* overLay@2x.png in Resources */,
+				FC976E5C1A46CBFC00D6599B /* 6@2x.png in Resources */,
+				FC976E291A46734100D6599B /* profileSquare@2x.png in Resources */,
+				FC976E451A46B75500D6599B /* nctulogo@2x.gif in Resources */,
 				FC976E091A4672F000D6599B /* LaunchScreen.xib in Resources */,
+				FC976E5E1A46CC6700D6599B /* 7@2x.png in Resources */,
+				FC976E661A46F6CC00D6599B /* uvapp.mov in Resources */,
+				FC976E6A1A47087100D6599B /* icon120@2x.png in Resources */,
+				FC976E5B1A46CBFC00D6599B /* 5@2x.png in Resources */,
+				FC976E481A46BAF100D6599B /* nthulogo@2x.gif in Resources */,
+				FC976E5A1A46CBFC00D6599B /* 4@2x.png in Resources */,
+				FC976E6E1A4708D900D6599B /* icon80@2x.png in Resources */,
+				FC976E2B1A46734E00D6599B /* Shket-Regular.otf in Resources */,
+				FC976E641A46F6C200D6599B /* date.mov in Resources */,
 				FC976E061A4672F000D6599B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC976E3C1A4698C800D6599B /* CameraViewController.m in Sources */,
+				FC976E391A4684A200D6599B /* AboutViewController.m in Sources */,
+				FC976E611A46D84B00D6599B /* ProjectContentViewController.m in Sources */,
 				FC976E011A4672F000D6599B /* ViewController.m in Sources */,
 				FC976DFE1A4672F000D6599B /* AppDelegate.m in Sources */,
+				FC976E3F1A4698D500D6599B /* ProjectsViewController.m in Sources */,
 				FC976DFB1A4672F000D6599B /* main.m in Sources */,
+				FC976E4C1A46C46A00D6599B /* MyCollectionViewCell.m in Sources */,
+				FC976E421A4698E600D6599B /* SkillsViewController.m in Sources */,
+				FC976E501A46C96B00D6599B /* ProjectObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
