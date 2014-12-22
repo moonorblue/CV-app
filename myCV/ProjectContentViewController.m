@@ -59,7 +59,7 @@
 -(void)playMovie:(id)sender
 {
     NSString *videoUrl = self.fileURL;
-    NSLog(videoUrl);
+//    NSLog(videoUrl);
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:videoUrl ofType:@"mov"]];
 //    NSURL *url = [NSURL URLWithString:
 //                  videoUrl];

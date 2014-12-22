@@ -24,6 +24,12 @@
             <string>Shket-Regular</string>
             <string>Shket-Regular</string>
             <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
+            <string>Shket-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -218,7 +224,6 @@
         <!--About View Controller-->
         <scene sceneID="VJd-0C-WK0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ohP-Ha-0BY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="about" id="J0T-cd-ZpZ" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JSp-av-HNP"/>
@@ -260,14 +265,14 @@
                                 <rect key="frame" x="110" y="122" width="100" height="100"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NTHU CS, '10 - '13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8w-fz-N3Q">
-                                <rect key="frame" x="56" y="304" width="154" height="56"/>
-                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <rect key="frame" x="41" y="314" width="169" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="41"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NCTU CS, '13 - '15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QY-Ea-0nz">
-                                <rect key="frame" x="56" y="373" width="154" height="56"/>
-                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <rect key="frame" x="41" y="376" width="176" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="41"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -277,11 +282,11 @@
                                 <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nctulogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="5vC-d1-1eE">
-                                <rect key="frame" x="203" y="367" width="73" height="73"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nthulogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-p2-OrI">
-                                <rect key="frame" x="172" y="281" width="135" height="100"/>
+                                <rect key="frame" x="178" y="281" width="135" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nctulogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="5vC-d1-1eE">
+                                <rect key="frame" x="209" y="367" width="73" height="73"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -290,8 +295,100 @@
                         <outlet property="imgView" destination="rw7-KU-r4n" id="l7z-hZ-pP4"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohP-Ha-0BY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="513" y="364"/>
+        </scene>
+        <!--Exp View Controller-->
+        <scene sceneID="ScG-gk-P9P">
+            <objects>
+                <viewController storyboardIdentifier="exp" id="NrR-PJ-wnf" customClass="ExpViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1y2-MW-vdA"/>
+                        <viewControllerLayoutGuide type="bottom" id="rFX-H7-Btw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oXO-Mi-lAf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EXPERIENCE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF2-Jf-Kd8">
+                                <rect key="frame" x="86" y="28" width="166" height="86"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="60"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="skp-6d-ktf">
+                                <rect key="frame" x="110" y="122" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[Cho Kae Jer]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl1-li-YeX">
+                                <rect key="frame" x="105" y="218" width="111" height="64"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="30"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Freelance iOS Developer " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahm-xD-vkB">
+                                <rect key="frame" x="65" y="290" width="209" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Internship @ Boitech" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A54-DF-Lse">
+                                <rect key="frame" x="72" y="386" width="176" height="56"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2011 - Present" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXd-vW-Fzv">
+                                <rect key="frame" x="116" y="344" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZh-FZ-OZv">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="07/2014 - 09/2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJC-fD-6lm">
+                                <rect key="frame" x="89" y="442" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d14-AV-7SE">
+                                <rect key="frame" x="164" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPress:" destination="NrR-PJ-wnf" eventType="touchUpInside" id="pS5-5W-iAy"/>
+                                    <action selector="nextPress:" destination="J0T-cd-ZpZ" eventType="touchUpInside" id="x5S-aX-BBM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYZ-UX-bjM">
+                                <rect key="frame" x="110" y="512" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="46"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="NrR-PJ-wnf" eventType="touchUpInside" id="IgH-2K-1dx"/>
+                                    <action selector="backPress:" destination="J0T-cd-ZpZ" eventType="touchUpInside" id="MoI-yx-5OB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="skp-6d-ktf" id="JwS-h9-0cS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esK-TP-icN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="368"/>
         </scene>
         <!--Skills View Controller-->
         <scene sceneID="rfE-9G-Pdo">
@@ -321,21 +418,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#iOS Development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvy-DW-doP">
-                                <rect key="frame" x="62" y="277" width="196" height="41"/>
+                                <rect key="frame" x="68" y="277" width="196" height="41"/>
                                 <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVg-mx-pS8">
-                                <rect key="frame" x="26" y="318" width="260" height="91"/>
+                                <rect key="frame" x="28" y="318" width="260" height="91"/>
                                 <string key="text">#C, Python, Java,
    JavaScript, PHP</string>
-                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#CocoaPods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW3-bt-HAR">
-                                <rect key="frame" x="80" y="411" width="161" height="41"/>
                                 <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -363,7 +454,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#BitBucket (GIT)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrs-2F-KNt">
-                                <rect key="frame" x="69" y="455" width="174" height="41"/>
+                                <rect key="frame" x="68" y="451" width="174" height="41"/>
+                                <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#CocoaPods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW3-bt-HAR">
+                                <rect key="frame" x="57" y="408" width="161" height="41"/>
                                 <fontDescription key="fontDescription" name="Shket-Regular" family="Shket" pointSize="37"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>

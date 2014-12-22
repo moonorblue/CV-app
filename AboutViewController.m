@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initWithImg:self.profileImg];
-    [self initSkillVC];
+//    [self initSkillVC];
+    [self initExpVC];
     // Do any additional setup after loading the view.
 }
 
@@ -25,9 +26,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)initSkillVC {
-    skillVC = [self.storyboard instantiateViewControllerWithIdentifier:@"skill"];
-    skillVC.profileImg = self.profileImg;
+//-(void)initSkillVC {
+//    skillVC = [self.storyboard instantiateViewControllerWithIdentifier:@"skill"];
+//    skillVC.profileImg = self.profileImg;
+//}
+-(void)initExpVC {
+    expVC = [self.storyboard instantiateViewControllerWithIdentifier:@"exp"];
+    expVC.profileImg = self.profileImg;
 }
 
 - (void)initWithImg:(UIImage*)img{
@@ -45,8 +50,8 @@
 }
 
 - (IBAction)nextPress:(id)sender {
-    skillVC.modalTransitionStyle = UIModalTransitionStylePartialCurl;
-    [self presentViewController:skillVC animated:YES completion:nil];
+    expVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:expVC animated:YES completion:nil];
 }
 - (IBAction)backPress:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

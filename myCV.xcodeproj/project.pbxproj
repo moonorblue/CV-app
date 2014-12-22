@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC83F3B61A47C72E00164888 /* ExpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83F3B51A47C72E00164888 /* ExpViewController.m */; };
 		FC976DFB1A4672F000D6599B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976DFA1A4672F000D6599B /* main.m */; };
 		FC976DFE1A4672F000D6599B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976DFD1A4672F000D6599B /* AppDelegate.m */; };
 		FC976E011A4672F000D6599B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976E001A4672F000D6599B /* ViewController.m */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC83F3B41A47C72E00164888 /* ExpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpViewController.h; sourceTree = "<group>"; };
+		FC83F3B51A47C72E00164888 /* ExpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpViewController.m; sourceTree = "<group>"; };
 		FC976DF51A4672F000D6599B /* myCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC976DF91A4672F000D6599B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC976DFA1A4672F000D6599B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				FC976E401A4698E600D6599B /* SkillsViewController.h */,
 				FC976E411A4698E600D6599B /* SkillsViewController.m */,
 				FC976E021A4672F000D6599B /* Main.storyboard */,
+				FC83F3B41A47C72E00164888 /* ExpViewController.h */,
+				FC83F3B51A47C72E00164888 /* ExpViewController.m */,
 				FC976E491A46C46A00D6599B /* MyCollectionViewCell.h */,
 				FC976E4A1A46C46A00D6599B /* MyCollectionViewCell.m */,
 				FC976E4B1A46C46A00D6599B /* MyCollectionViewCell.xib */,
@@ -374,6 +379,7 @@
 				FC976E3F1A4698D500D6599B /* ProjectsViewController.m in Sources */,
 				FC976DFB1A4672F000D6599B /* main.m in Sources */,
 				FC976E4C1A46C46A00D6599B /* MyCollectionViewCell.m in Sources */,
+				FC83F3B61A47C72E00164888 /* ExpViewController.m in Sources */,
 				FC976E421A4698E600D6599B /* SkillsViewController.m in Sources */,
 				FC976E501A46C96B00D6599B /* ProjectObj.m in Sources */,
 			);
@@ -566,6 +572,7 @@
 				FC976E1A1A4672F000D6599B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC976E1B1A4672F000D6599B /* Build configuration list for PBXNativeTarget "myCVTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +581,7 @@
 				FC976E1D1A4672F000D6599B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

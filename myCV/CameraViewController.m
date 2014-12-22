@@ -36,7 +36,7 @@
 }
 
 - (IBAction)nextPress:(id)sender {
-    aboutVC.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    aboutVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:aboutVC animated:YES completion:nil];
 }
 

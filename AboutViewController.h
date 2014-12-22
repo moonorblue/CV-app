@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "SkillsViewController.h"
+#import "ExpViewController.h"
 @interface AboutViewController : UIViewController{
-    SkillsViewController *skillVC;
+//    SkillsViewController *skillVC;
+    ExpViewController *expVC;
 }
 - (IBAction)backPress:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
